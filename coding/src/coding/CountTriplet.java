@@ -16,6 +16,7 @@ public class CountTriplet {
 			}else {
 				numberAndCount.put(val,1);
 			}
+			
 		}
 		int tripletCount=0;
 		int j=1;
