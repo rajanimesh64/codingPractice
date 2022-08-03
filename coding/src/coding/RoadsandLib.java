@@ -9,8 +9,7 @@ public class RoadsandLib {
         vis[node]=true;
         for (Integer i: adj.get(node)) {
             if(vis[i]==false){
-                nodes+=dfs(i, vis, adj);
-                
+                nodes+=dfs(i, vis, adj);  
             }   
         }
         return nodes;
